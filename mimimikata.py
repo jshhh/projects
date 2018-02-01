@@ -18,7 +18,7 @@ x = input()
 
 main = tkinter.Tk()
 canvas = tkinter.Canvas(main, bg='white', height=600, width=600)
-canvas.create_line((xs(0), ys(400)), xs(0), ys(-400), fill='black')
+canvas.create_line((xs(0), ys(400)), xs(0), ys(-400), fill='#336699')
 canvas.create_line((xs(-400), ys(0)), xs(400), ys(0), fill='black')
 n = int(input())
 alpha = int(input())
